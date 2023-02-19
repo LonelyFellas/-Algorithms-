@@ -1,3 +1,11 @@
+// https://leetcode.cn/problems/binary-search/
+
+/**
+ * title：二分查找
+ * @param numArr 给定的数组
+ * @param target 查找的目标数字
+ * @return [number] - 返回在 给定的数组 的匹配到地 目标数字 的下标
+ */
 function search(numArr: number[], target: number): number {
   let start = 0;
   let end = numArr.length;
